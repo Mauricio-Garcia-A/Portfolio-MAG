@@ -1,0 +1,30 @@
+// Importacion Estilos Globales
+@import 'EstilosGlobales/EstilosGlobales.scss';
+
+
+// ---- ESTILOS COMPONENTE SECCION PORTAFOLIO ----
+.contenedor-Portafolio {
+    padding: 30px;
+    background: rgba(221, 255, 0, 0.207);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-proyecto-Portafolio {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    .imagen-proyecto-Portafolio {
+        width: 400px;
+        height: 250px;
+        background: rgba(241, 209, 24, 0.622);
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .texto-proyecto-Portafolio {
+        min-width: 300px;
+        width: 60%;
+        margin: 10px;
+    }
+}

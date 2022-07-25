@@ -1,0 +1,13 @@
+@import './EstilosGlobales/EstilosGlobales.scss';
+
+.contenedor-App {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+  }
+  .footer-App {
+    margin-top: auto;
+  }

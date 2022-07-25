@@ -1,0 +1,31 @@
+// Importacion Estilos Globales
+@import 'EstilosGlobales/EstilosGlobales.scss';
+
+
+// ---- ESTILOS COMPONENTE SECCION HOOBIES ----
+.contenedor-Hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background: rgba(0, 255, 102, 0.145);
+    height: 100%;
+}
+.contenedor-hobby-Hobbies {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    .imagen-hobby-Hobbies {
+        width: 400px;
+        height: 250px;
+        background: rgba(71, 241, 24, 0.367);
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .texto-hobby-Hobbies {
+        min-width: 300px;
+        width: 60%;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,20 @@
+// Importacion Estilos Globales
+@import 'EstilosGlobales/EstilosGlobales.scss';
+
+
+// ---- ESTILOS COMPONENTE SECCION CONTACTO----
+.contenedor-Contacto {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: rgba(255, 145, 244, 0.177);
+    height: 100%;
+    padding: 30px;
+    h1{
+        text-align: center;
+        width: 100%;
+    }
+    section {
+        width: 300px;
+    }
+}

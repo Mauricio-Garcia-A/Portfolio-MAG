@@ -1,0 +1,14 @@
+// Importacion Estilos Globales
+@import 'EstilosGlobales/EstilosGlobales.scss';
+
+
+// ---- ESTILOS COMPONENTE SECCION EXPERIENCIAS ----
+.contenedor-Experiencias {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 126, 2, 0.192);
+    height: 100%;
+    fill:rgba(128, 128, 128, 0.534);
+}

@@ -1,0 +1,30 @@
+// Importacion Estilos Globales
+@import 'EstilosGlobales/EstilosGlobales.scss';
+
+
+// ---- ESTILOS COMPONENTE SECCION PRESENTACION ----
+.contenedor-Presentacion {
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: rgba(125, 125, 125, 0.334);
+    height: 100%;
+}
+.tarjeta-Presentacion {
+    
+    margin: 20px;
+    background: rgb(139, 172, 244);
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    
+    svg {
+        fill: rgba(73, 73, 73, 0.492);
+        margin: 10px;
+        width: 150px;
+    }
+}
+.seccion-texto-Presentacion {
+    width: 500px;
+}
