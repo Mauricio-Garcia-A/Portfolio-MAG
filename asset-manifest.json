@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio-MAG/static/css/main.6e0fdffd.css",
+    "main.js": "/Portfolio-MAG/static/js/main.9991375a.js",
+    "static/js/787.23d167c7.chunk.js": "/Portfolio-MAG/static/js/787.23d167c7.chunk.js",
+    "index.html": "/Portfolio-MAG/index.html",
+    "main.6e0fdffd.css.map": "/Portfolio-MAG/static/css/main.6e0fdffd.css.map",
+    "main.9991375a.js.map": "/Portfolio-MAG/static/js/main.9991375a.js.map",
+    "787.23d167c7.chunk.js.map": "/Portfolio-MAG/static/js/787.23d167c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e0fdffd.css",
+    "static/js/main.9991375a.js"
+  ]
+}
