@@ -11,12 +11,13 @@ function App() {
       <header className="header-App">
         <BarraDeNavegacion />
       </header>
-      <body>
+      <div>
       <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Portfolio-MAG" element={<Home />} />
           <Route path="/about-me" element={<AcercaDeMi />} />
        </Routes> 
-      </body>
+      </div>
       <footer className="footer-App">
         <PieDePagina />
       </footer>
