@@ -2,6 +2,8 @@
 @import 'EstilosGlobales/EstilosGlobales.scss';
 
 
+
+
 // ---- ESTILOS COMPONENTE SECCION PRESENTACION ----
 .contenedor-Presentacion {
     padding: 30px;
@@ -10,21 +12,20 @@
     justify-content: space-around;
     background: rgba(125, 125, 125, 0.334);
     height: 100%;
+
+    background-color: rgb(255, 255, 255);
+    background-image: url('../../../Imagenes/imagenFondo1.jpg'), linear-gradient(to right, rgba(163, 163, 163, 0.568) 0%, #e2e2e282 100%);;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
 }
-.tarjeta-Presentacion {
-    
-    margin: 20px;
-    background: rgb(139, 172, 244);
-    width: 400px;
-    height: 230px;
-    border-radius: 10px;
-    
-    svg {
-        fill: rgba(73, 73, 73, 0.492);
-        margin: 10px;
-        width: 150px;
-    }
-}
+
 .seccion-texto-Presentacion {
     width: 500px;
+    margin: 0;
+    color: #333333;
+    text-rendering: optimizelegibility;
+    font-weight: normal;
+    font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
+
