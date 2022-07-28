@@ -15,7 +15,7 @@ export default function Presentacion() {
                 <h1>{SECCION_PRESENTACION.Titulo}</h1>
                 <p>{SECCION_PRESENTACION.Descripcion}</p>
             </section>
-            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+            {/*<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
                 <div class="elementor-shape elementor-shape-bottom position-absolute" data-negative="false">
                     <svg preserveAspectRatio="none" viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg"> 
                         <path class="elementor-shape-fill" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z" opacity="0.33"> 
@@ -26,7 +26,7 @@ export default function Presentacion() {
                         </path> 
                     </svg>
                 </div>
-            </div>
+            </div>*/}
         </div>
     )
 }

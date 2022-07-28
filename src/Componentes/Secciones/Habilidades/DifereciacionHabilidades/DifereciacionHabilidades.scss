@@ -1,0 +1,124 @@
+
+// Tamaño de hancho contenedor
+$heightContenedor: 400px;
+
+.contenedor-DifereciacionHabilidades {
+   background: rgb(255, 255, 255);
+   border-radius: 5px;
+   border: 1px solid rgba(0, 0, 0, 0.529);
+   width: 100%;
+   height: $heightContenedor;
+   position: relative;
+   overflow: hidden;
+   &:hover{
+    .seccion-uno-DifereciacionHabilidades {
+        transition: 0.5s ease all ; 
+    }
+    .bolqueador-DifereciacionHabilidades div {
+        transition: 0.5s ease all ; 
+    } 
+    }
+}
+
+.seccion-DifereciacionHabilidades {
+    width: 100%;
+    height: $heightContenedor;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+    h1 {
+        text-align: center;
+        font-size: 30pt;
+        color: rgb(55, 55, 55);
+    }
+
+}
+.seccion-uno-DifereciacionHabilidades {
+    z-index: 4;
+    background: rgb(255, 255, 255);
+    transition: 1s ease all ;
+    .contenedor-informacion-DifereciacionHabilidades{
+        flex-direction: row;
+    }
+
+}
+.seccion-dos-DifereciacionHabilidades {
+    background: rgb(255, 255, 255);
+    z-index: 4;
+    .contenedor-informacion-DifereciacionHabilidades{
+        flex-direction: row-reverse;
+    }
+}
+
+
+.bolqueador-DifereciacionHabilidades {
+    z-index: 6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    div {
+        position: absolute;
+        transition: 1s ease all ;
+
+        span:nth-child(1){
+            cursor:e-resize;
+            margin-left: 31px;
+            background-color:rgba(72, 72, 72, 0.864);
+            position: absolute;
+            width:1px;
+            height: $heightContenedor - 70px;
+            
+        }
+        span:nth-child(3){
+            cursor:e-resize;
+            top: $heightContenedor - 40px;
+            margin-left: 31px;
+            background-color:rgba(72, 72, 72, 0.864);
+            position: absolute;
+            width:1px;
+            height: 40px;
+        }
+        span:nth-child(2){
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 3px;
+            color:rgba(62, 62, 62, 0.858);
+            top: $heightContenedor - 70px;
+            background-color:rgba(242, 240, 255, 0.167);
+            backdrop-filter: blur(4px);
+            border: 2px solid rgba(27, 27, 27, 0.818);
+            border-radius: 40px;
+            position: absolute;
+            width:60px;
+            height: 25px;
+            cursor: pointer;
+            box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.541);
+        }
+    }
+}
+
+.contenedor-informacion-DifereciacionHabilidades  {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    z-index: 6;
+}
+.informacion-DifereciacionHabilidades  {
+    padding: 40px;
+    width: 30%;
+
+}
+.tecnologias-DifereciacionHabilidades {
+    padding: 40px; 
+    width: 30%;
+}
+
+.imagen-DifereciacionHabilidades {
+    position: absolute;
+    height: $heightContenedor;
+}
+

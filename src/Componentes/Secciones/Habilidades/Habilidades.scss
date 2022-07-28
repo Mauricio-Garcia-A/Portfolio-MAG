@@ -10,14 +10,13 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    background: rgba(255, 0, 0, 0.152);
+      background: rgb(255, 255, 255);
 }
-.seccion1-Habilidades {
-    text-align: center;
-    font-size:100px ;
-    width: 90%;
-    height: 300px;
-    background: rgb(237,203,2);
-background: linear-gradient(90deg, rgba(237,203,2,0.523984593837535) 20%, rgba(255,0,0,0.4427521008403361) 91%);
-    border-radius: 10px;
+.contenedor-seccion-tecnologias-Habilidades {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px;
+
 }
+
+
