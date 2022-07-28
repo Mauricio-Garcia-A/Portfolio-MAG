@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio-MAG/static/css/main.ff5f9a95.css",
-    "main.js": "/Portfolio-MAG/static/js/main.b825288f.js",
+    "main.css": "/Portfolio-MAG/static/css/main.997fbaa2.css",
+    "main.js": "/Portfolio-MAG/static/js/main.7e5e8660.js",
     "static/js/787.23d167c7.chunk.js": "/Portfolio-MAG/static/js/787.23d167c7.chunk.js",
+    "static/media/fotoHabilidades2.png": "/Portfolio-MAG/static/media/fotoHabilidades2.bd1a15c870730c2fa790.png",
+    "static/media/fotoPerfil.png": "/Portfolio-MAG/static/media/fotoPerfil.601d818a6501dd26baa3.png",
+    "static/media/fotoHabilidades1.png": "/Portfolio-MAG/static/media/fotoHabilidades1.1cfe8f7ae20e5a1800af.png",
+    "static/media/imagenFondo1.jpg": "/Portfolio-MAG/static/media/imagenFondo1.8e66dc3306d9d23a459b.jpg",
     "index.html": "/Portfolio-MAG/index.html",
-    "main.ff5f9a95.css.map": "/Portfolio-MAG/static/css/main.ff5f9a95.css.map",
-    "main.b825288f.js.map": "/Portfolio-MAG/static/js/main.b825288f.js.map",
+    "main.997fbaa2.css.map": "/Portfolio-MAG/static/css/main.997fbaa2.css.map",
+    "main.7e5e8660.js.map": "/Portfolio-MAG/static/js/main.7e5e8660.js.map",
     "787.23d167c7.chunk.js.map": "/Portfolio-MAG/static/js/787.23d167c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff5f9a95.css",
-    "static/js/main.b825288f.js"
+    "static/css/main.997fbaa2.css",
+    "static/js/main.7e5e8660.js"
   ]
 }
