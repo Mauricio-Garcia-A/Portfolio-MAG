@@ -12,10 +12,12 @@ $widthResponsive: 700px;
     box-shadow: -1px 21px 21px -15px rgba(0, 0, 0, 0.16);
     -webkit-box-shadow: -1px 21px 21px -15px rgba(0,0,0,0.28);
     -moz-box-shadow: -1px 21px 21px -15px rgba(0,0,0,0.28);
-    //position: absolute;
+    position: absolute;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.875);
     //left: 0;
     //right: 0;
-    //z-index: 10;
+    z-index: 10;
 
     display: flex;
     flex-flow: row nowrap;
