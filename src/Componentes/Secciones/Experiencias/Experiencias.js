@@ -1,15 +1,16 @@
+import { useSimuladorAPI } from 'Hooks/useSimuladorAPI'
 import React from 'react'
 import './Experiencias.scss'
-import SvgComponent from './SvgComponente'
+import LineaDeTiempo from './LineaDeTiempo/LineaDeTiempo'
 
 export default function Experiencias() {
-
+    const {SECCION_EXPERIENCIAS}= useSimuladorAPI()
     return (
         <div className='contenedor-Experiencias'>
-            <h1>SECCION 3: Formacion Tecnica y Academica </h1> 
+            <h1>{SECCION_EXPERIENCIAS.Titulo} </h1>
+            <p>{SECCION_EXPERIENCIAS.DescripcionExperiencias}</p>
             <div> 
-                <SvgComponent width='400px'/>
-                
+                <LineaDeTiempo experiencias={SECCION_EXPERIENCIAS.experiencias}/>
             </div>
         </div>
     )

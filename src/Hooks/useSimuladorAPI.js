@@ -25,5 +25,47 @@ export function useSimuladorAPI() {
         descripcionHabilidad2:'Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint'
     }
 
-    return {SECCION_PRESENTACION, SECCION_HABILIDADES} 
+    const SECCION_EXPERIENCIAS = {
+        Titulo: 'SECCION 3: Formacion Tecnica y Academica',
+        DescripcionExperiencias:'Lorem Lorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metusipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint',
+        experiencias:[
+            { 
+                titulo:'Freelancer',
+                subtitulo:'proyectos',
+                duracionAños:'2020-Actualidad',
+                descripcion:'Lorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget laciniaLorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus phasellus sapien in curabitur pulvinar conubia metus ut eligendi sint',
+                logo:'freelancer'
+            },
+            { 
+                titulo:'Consultora Internacional',
+                subtitulo:'Global Logic',
+                duracionAños:'2018-2020',
+                descripcion:'Lorem Lorem ipsum Lorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus in sint dolor vel odio autem ut eligendi sint',
+                logo:'globalLogic',
+            },
+            { 
+                titulo:'Trabajo en Investigacion',
+                subtitulo:'GIDAS',
+                duracionAños:'2017-2018',
+                descripcion:'Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint',
+                logo:'gidas'
+            },
+            { 
+                titulo:'Estudio Universitario',
+                subtitulo:'UTN FRLP',
+                duracionAños:'2008-Actualidad',
+                descripcion:'Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint',
+                logo:'utn'
+            },
+            { 
+                titulo:'Estudios Secundarios',
+                subtitulo:'Escuela Tecnica N1',
+                duracionAños:'2003-2007',
+                descripcion:'Lorem ipsum dolor sit amet. Ut Lorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus',
+                logo:'escuela'
+            }
+        ]
+    }
+
+    return {SECCION_PRESENTACION, SECCION_HABILIDADES, SECCION_EXPERIENCIAS} 
 }
