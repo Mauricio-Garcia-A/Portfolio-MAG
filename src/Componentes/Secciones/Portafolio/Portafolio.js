@@ -1,24 +1,35 @@
 import React from 'react'
+import { useSimuladorAPI } from 'Hooks/useSimuladorAPI'
+
+import ItemProyecto from './ItemProyecto/ItemProyecto'
 import './Portafolio.scss'
 
 export default function Portafolio() {
+    const { SECCION_PORTAFOLIO }= useSimuladorAPI()
+
     return (
         <div className='contenedor-Portafolio'>
-            <h1>SECCION 4: PORTFOLIO DE PROYECTOS </h1>
-
-            <div className='contenedor-proyecto-Portafolio'> 
-                <div className='imagen-proyecto-Portafolio'> IMAGEN PROYECTO </div>
-                <div className='texto-proyecto-Portafolio'>
-                    <h2>Proyecto 1</h2>
-                    <p> Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint cum odit dolorum non perferendis nihil est consequatur quas. Delectus vitae aut deserunt nisi a iste cupiditate</p>
-                </div>
-            </div>
-            <div className='contenedor-proyecto-Portafolio'> 
-                <div className='imagen-proyecto-Portafolio'> IMAGEN PROYECTO </div>
-                <div className='texto-proyecto-Portafolio'>
-                    <h2>Proyecto 2</h2>
-                    <p> Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint cum odit dolorum non perferendis nihil est consequatur quas. Delectus vitae aut deserunt nisi a iste cupiditate</p>
-                </div>
+            <h1>{SECCION_PORTAFOLIO.Titulo} </h1>
+            <div className='contenedor-proyectos-Portafolio' >
+                {SECCION_PORTAFOLIO.proyectos.map((proyecto,i)=>{
+                    let posicionItem='derecha'
+                    if ((i%2)===0) {
+                        posicionItem='izquierda'
+                    }
+                    return(
+                        <ItemProyecto
+                            key={`ItemProyecto-${i}`}
+                            titulo={proyecto.titulo} 
+                            descripcion={proyecto.descripcion} 
+                            posicionItem={posicionItem} 
+                            imagenCelular={proyecto.imagenMovil} 
+                            imagenNavegador={proyecto.imagenBrowser}
+                            tituloHttp={proyecto.tituloHttp}
+                            logo={proyecto.logo}
+                            colorFondo={proyecto.colorFondo}
+                         />
+                    )
+                })}
             </div>
         </div>
     )

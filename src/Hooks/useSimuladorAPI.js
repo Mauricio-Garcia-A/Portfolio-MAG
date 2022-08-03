@@ -5,6 +5,15 @@ import ImagenPerfil from '../Imagenes/fotoPerfil.png'
 import ImagenHabilidad1 from 'Imagenes/fotoHabilidades1.png'
 import ImagenHabilidad2 from 'Imagenes/fotoHabilidades2.png'
 
+//Seccion PORTAFOLIO
+import imagenMovilEGO from 'Imagenes/ego-movil.png'
+import imagenMovilMeli from 'Imagenes/meli-movil.png'
+import imagenBrowseEGO from 'Imagenes/ego-browser.png'
+import imagenBrowseMeli from 'Imagenes/meli-browser.png'
+import logoEGO from 'Imagenes/logo-ego.png'
+import logoMeli from 'Imagenes/logo-meli.png'
+
+
 
 export function useSimuladorAPI() {
     const SECCION_PRESENTACION = {
@@ -67,5 +76,32 @@ export function useSimuladorAPI() {
         ]
     }
 
-    return {SECCION_PRESENTACION, SECCION_HABILIDADES, SECCION_EXPERIENCIAS} 
+    const SECCION_PORTAFOLIO = {
+        Titulo:'SECCION 4: PORTFOLIO DE PROYECTOS',
+        proyectos: [
+            {
+                titulo:'Challenge de Mercado Libre',
+                tituloHttp:'meli',
+                descripcion:'Lorem ipsum dolor sit amet. Ut Lorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus',
+                imagenMovil: imagenMovilMeli,
+                imagenBrowser:imagenBrowseMeli,
+                logo: logoMeli,
+                colorFondo: 'rgba(216, 152, 13, 0.511)',
+            },
+            {
+                titulo:'Challenge de Agencia EGO',
+                tituloHttp:'ego',
+                descripcion:'Lorem ipsum dolor sit amet. Ut Lorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus',
+                imagenMovil: imagenMovilEGO,
+                imagenBrowser:imagenBrowseEGO,
+                logo: logoEGO,
+                colorFondo: 'rgba(108, 20, 20, 0.511)'
+            }
+        ]
+    }
+
+
+
+
+    return {SECCION_PRESENTACION, SECCION_HABILIDADES, SECCION_EXPERIENCIAS, SECCION_PORTAFOLIO } 
 }

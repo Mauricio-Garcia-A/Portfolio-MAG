@@ -1,0 +1,37 @@
+
+
+
+.contenedor-ItemProyecto {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &.izquierda {
+        flex-direction: row;
+        .contenedor-imagenes-ItemProyecto {
+            padding-left: 70px;
+            div:nth-child(2) {
+                left: 0;
+            }
+        }
+    }
+    &.derecha {
+        flex-direction: row-reverse;
+        .contenedor-imagenes-ItemProyecto {
+            padding-right: 70px;
+        }
+    }
+}
+
+.contenedor-detalles-ItemProyecto{
+    width: 35%;
+    padding: 40px;
+}
+.contenedor-imagenes-ItemProyecto {
+    position: relative;
+    padding-bottom: 70px;
+}
+
+
