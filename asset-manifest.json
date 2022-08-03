@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio-MAG/static/css/main.0e5fe073.css",
-    "main.js": "/Portfolio-MAG/static/js/main.f1de5fc1.js",
+    "main.css": "/Portfolio-MAG/static/css/main.b3d96c16.css",
+    "main.js": "/Portfolio-MAG/static/js/main.bb371fdf.js",
     "static/js/787.23d167c7.chunk.js": "/Portfolio-MAG/static/js/787.23d167c7.chunk.js",
+    "static/media/ego-browser.png": "/Portfolio-MAG/static/media/ego-browser.14658858f46a833fa5f0.png",
+    "static/media/meli-browser.png": "/Portfolio-MAG/static/media/meli-browser.8b361bfe61a672f8d7ab.png",
     "static/media/fotoHabilidades2.png": "/Portfolio-MAG/static/media/fotoHabilidades2.bd1a15c870730c2fa790.png",
     "static/media/fotoPerfil.png": "/Portfolio-MAG/static/media/fotoPerfil.601d818a6501dd26baa3.png",
     "static/media/imagenFondo1.jpg": "/Portfolio-MAG/static/media/imagenFondo1.f7996312b2cf63ddb7b8.jpg",
     "static/media/fotoHabilidades1.png": "/Portfolio-MAG/static/media/fotoHabilidades1.1cfe8f7ae20e5a1800af.png",
+    "static/media/ego-movil.png": "/Portfolio-MAG/static/media/ego-movil.376a675ad787de1000e5.png",
+    "static/media/meli-movil.png": "/Portfolio-MAG/static/media/meli-movil.e1547d13fea9a2db3389.png",
     "index.html": "/Portfolio-MAG/index.html",
-    "main.0e5fe073.css.map": "/Portfolio-MAG/static/css/main.0e5fe073.css.map",
-    "main.f1de5fc1.js.map": "/Portfolio-MAG/static/js/main.f1de5fc1.js.map",
+    "main.b3d96c16.css.map": "/Portfolio-MAG/static/css/main.b3d96c16.css.map",
+    "main.bb371fdf.js.map": "/Portfolio-MAG/static/js/main.bb371fdf.js.map",
     "787.23d167c7.chunk.js.map": "/Portfolio-MAG/static/js/787.23d167c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e5fe073.css",
-    "static/js/main.f1de5fc1.js"
+    "static/css/main.b3d96c16.css",
+    "static/js/main.bb371fdf.js"
   ]
 }
