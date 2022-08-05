@@ -100,8 +100,46 @@ export function useSimuladorAPI() {
         ]
     }
 
+    const SECCION_CONTACTO ={
+        redesSociales: [
+            {
+                titulo: 'Linkedin',
+                icono:'linkedin',
+                link: 'https://www.linkedin.com/in/mauricio-ariel-garcía',
+                usuario:'mauricio-ariel-garcía'
+            },
+            {
+                titulo: 'Instagram',
+                icono:'instagram',
+                link: 'https://www.instagram.com/mauro.mam/',
+                usuario:'mauro_mam'
+            },
+            {
+                titulo: 'Facebook',
+                icono:'facebook',
+                link: 'https://www.facebook.com/mauro.mam',
+                usuario:'mauro.mam'
+            }
+        ],
+        formasDeContacto: [
+            {
+                titulo: 'email',
+                icono: 'gmail',
+                descripcion: 'garcia.mauricio.ariel@gmail.com'
+            },
+            {
+                titulo: 'celular',
+                icono: 'whatsapp',
+                descripcion: '02314-443314'
+            },
+            {
+                titulo: 'linkedin',
+                icono:'linkedin',
+                descripcion: 'www.linkedin.com/in/mauricio-ariel-garcía'
+            }
+        ]
+    }
 
 
-
-    return {SECCION_PRESENTACION, SECCION_HABILIDADES, SECCION_EXPERIENCIAS, SECCION_PORTAFOLIO } 
+    return {SECCION_PRESENTACION, SECCION_HABILIDADES, SECCION_EXPERIENCIAS, SECCION_PORTAFOLIO, SECCION_CONTACTO } 
 }
