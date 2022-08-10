@@ -1,7 +1,7 @@
 // Importacion Estilos Globales
 @import 'EstilosGlobales/EstilosGlobales.scss';
 
-
+$colorSignosTitulo:rgb(64, 70, 255);
 
 
 // ---- ESTILOS COMPONENTE SECCION PRESENTACION ----
@@ -13,8 +13,8 @@
     height: 100%;
     min-height: 500px;
     padding-top: 150px;
-    background-color: rgb(255, 255, 255);
-    background-image: url('../../../Imagenes/imagenFondo1.jpg'), linear-gradient(to right, rgba(225, 225, 225, 0.933) 0%, #d6d6d6b2 100%);;
+    background-image: url('../../../Imagenes/imagenFondo2.avif'), linear-gradient(65deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 19%, rgb(255, 255, 255) 30%, rgb(0, 0, 0) 100%);
+    background-color: #00000066;
     background-blend-mode:multiply;
     background-size: cover;
     background-position: center;
@@ -23,10 +23,37 @@
 
 .seccion-texto-Presentacion {
     width: 500px;
-    margin: 0;
-    color: #333333;
-    text-rendering: optimizelegibility;
-    font-weight: normal;
-    font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    color: #dadada;
+
+
+    div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 10px;
+
+        h1 {
+             margin-right: 15px;
+            font-size: 30pt;
+        }
+
+        svg:nth-child(1) {
+            width: 45px;
+            fill: $colorSignosTitulo; 
+            transform: rotate(180deg);  
+        }
+        svg:nth-child(4) {
+            width: 45px;
+            fill: $colorSignosTitulo;
+        }
+        svg:nth-child(3) {
+            height: 45px;
+            fill: $colorSignosTitulo;
+        }
+    }
+   
+    p {
+        color: rgb(255, 255, 255);
+    }
 }
 

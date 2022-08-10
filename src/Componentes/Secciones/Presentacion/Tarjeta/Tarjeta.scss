@@ -2,15 +2,19 @@
 @import 'EstilosGlobales/EstilosGlobales.scss';
 
 
+$bordeExterior:#8d8d8d80;
+$bordeInterior: rgba(173, 173, 173, 0.495);
+$colorFondo:rgba(67, 91, 162, 0.411);
+
 // ---- ESTILOS COMPONENTE TARJETA ----
 .contenedor-Tarjeta {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.633);
-    border: 2px solid rgba(104, 109, 255, 0.501);
+    border: 2px solid $bordeExterior;
     width: 500px;
     aspect-ratio: 15/8;
     transition: 1s ease all ;
 
-    background-color: rgba(18, 120, 14, 0.205);
+    background-color: $colorFondo;
   
     border-radius: 10px;
     
@@ -18,11 +22,10 @@
         transition: 0.1s ease all ; 
     }
 
-    svg {
-        fill: rgba(73, 73, 73, 0.492);
-        margin: 10px;
-        width: 150px;
+    .logoTarjeta-Tarjeta svg {
+        opacity: 0.6;
     }
+    
 } 
 
 
@@ -32,16 +35,44 @@
 
     perspective: 1000px;
     
+    .foto-perfil-Tarjeta {
+
+ //       background-image: url('../../../../Imagenes/bg1.jpg');
+        background-color: rgba(162, 162, 162, 0.434);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 200px;
+        width: 160px;
+        height: 160px;
+        position: relative;
+        border: 5px solid $bordeInterior;
+        img {
+            width:110px;
+            transition: 0.5s ease all ;
+            transform: translate3d(30px, 0px, 0px);
+                position: absolute;
+                bottom: 0;
+            }
+    }
+
     &:hover{
         transform: scale(1);
+        img {
+            transform: scale3d(1.3, 1.3, 1.3) translate3d(23px, -20px, 0px);
+            }
+        
     } 
+
+
 }
+
 
 .contenedor2-Tarjeta {
     margin: 10px;
     height: 100%;
     border-radius: 5px;
-    border: 3px solid rgba(0, 54, 130, 0.611);
+    border: 3px solid $bordeInterior;
     background: rgba(255, 255, 255, 0.242);
     backdrop-filter: blur(4px);
 
@@ -49,13 +80,53 @@
     flex-flow: row nowrap;
 
     backface-visibility: visible;
+    position: relative;
+
+    section.seccion1  {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    section.seccion2 {
+        display: flex;
+        flex-direction: column;justify-content: center;
+        width: 60%;
+    }
+
+    .nacionalidad-seccion-Tarjeta {
+        width: 300px;
+        height: 40px;
+        position: absolute;
+        right: 0;
+        background: linear-gradient(45deg, rgba(255, 255, 255, 0) 21%, rgba(0, 0, 0, 0.197) 21%);
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 0px;
+        align-items: center;
+
+        b {
+            opacity: 0.6;
+            font-size: 14pt;
+            margin-left: 10px;
+            margin-right: 40px;
+        }
+    }
+    .universidad-seccion-Tarjeta {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        opacity: 0.6;
+    }
 }
 
+
+
 .bloquedor {
+    z-index: 2;
     width: 100%;
     height: 100%;
     position: absolute;
 }
-.foto-perfil-Tarjeta {
-    padding: 15px;
-}
+

@@ -1,5 +1,5 @@
 //Seccion PRESENTACION
-import ImagenPerfil from '../Imagenes/fotoPerfil.png'
+import ImagenPerfil from '../Imagenes/imagenPerfil.png'
 
 //Seccion HABILIDADES
 import ImagenHabilidad1 from 'Imagenes/fotoHabilidades1.png'
@@ -20,9 +20,10 @@ export function useSimuladorAPI() {
         ImagenPefil:ImagenPerfil,
         NombreYApellido:'Mauricio Ariel Garcia',
         Estudio: 'Ingeniería en Sistemas de Información',
-        Nacinalidad: 'Argentina',
-        Titulo: 'SECCION 1: PRESENTACION',
-        Descripcion: 'Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint cum odit dolorum non perferendis nihil est consequatur quas. Delectus vitae aut deserunt nisi a iste cupiditate et excepturi exercitationem et consequatur rerum non tempore repudiandae.'
+        Nacinalidad: 'ARGENTINO',
+        IconoBandera:'argentina',
+        Titulo: 'SOY MAURO',
+        Descripcion: '< HOLA MUNDO /> Mi nombre es Mauricio Garcia y me conocen como "MAURO". Estudie la carrera de ingenieria en sistemas de informacion, y actualmente soy Developers FromtEnd'
     }
     const SECCION_HABILIDADES = {
         Titulo: 'SECCION 2: HABILIDADES',

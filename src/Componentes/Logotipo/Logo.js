@@ -1,10 +1,10 @@
 import * as React from "react"
 
-const Logo = ({colorFigura1='#000', colorFigura2='#000', colorFigura3='#000', colorFigura4='#000', colorM='#000', colorA='#000',colorG='#000', colorPunto='#000' }) => (
+const Logo = ({colorFigura1='#000', colorFigura2='#000', colorFigura3='#000', colorFigura4='#000', colorM='#000', colorA='#000',colorG='#000', colorPunto='#000', width='150px' }) => (
 <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    width={150}
+    width={width}
     style={{
       shapeRendering: "geometricPrecision",
       textRendering: "geometricPrecision",

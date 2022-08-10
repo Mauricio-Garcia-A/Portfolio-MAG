@@ -10,23 +10,16 @@ export default function Presentacion() {
 
     return (
         <div className='contenedor-Presentacion'>
-            <Tarjeta nombreYapellido={SECCION_PRESENTACION.NombreYApellido} imagenPerfil={SECCION_PRESENTACION.ImagenPefil} estudio={SECCION_PRESENTACION.Estudio} />
+            <Tarjeta nombreYapellido={SECCION_PRESENTACION.NombreYApellido} imagenPerfil={SECCION_PRESENTACION.ImagenPefil} estudio={SECCION_PRESENTACION.Estudio} nacionalidad={SECCION_PRESENTACION.Nacinalidad} iconoBandera={SECCION_PRESENTACION.IconoBandera}/>
             <section className='seccion-texto-Presentacion'>
-                <h1>{SECCION_PRESENTACION.Titulo}</h1>
+                <div> 
+                    <svg viewBox="0 0 1000 1000" xmlSpace="preserve" ><path d="M587.4 500 238 150.6c-32.2-32.2-32.2-84.3 0-116.4C270.2 2 322.3 2 354.4 34.2L762 441.8c32.2 32.2 32.2 84.3 0 116.4L354.4 965.9c-32.2 32.2-84.3 32.1-116.4 0-32.2-32.2-32.2-84.3 0-116.4L587.4 500z" /> </svg>
+                    <h1>{SECCION_PRESENTACION.Titulo}</h1>  
+                    <svg viewBox="-900 -200 500 1000" xmlSpace="preserve" ><path style={{transform:'rotate(110deg)'}} d="M908.3 418.3c45.1 0 81.7 36.6 81.7 81.7s-36.6 81.7-81.7 81.7H91.7C46.6 581.7 10 545.1 10 500s36.6-81.7 81.7-81.7h816.6z" /></svg>
+                    <svg viewBox="0 0 1000 1000" xmlSpace="preserve" ><path d="M587.4 500 238 150.6c-32.2-32.2-32.2-84.3 0-116.4C270.2 2 322.3 2 354.4 34.2L762 441.8c32.2 32.2 32.2 84.3 0 116.4L354.4 965.9c-32.2 32.2-84.3 32.1-116.4 0-32.2-32.2-32.2-84.3 0-116.4L587.4 500z" /> </svg>
+                </div>
                 <p>{SECCION_PRESENTACION.Descripcion}</p>
             </section>
-            {/*<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                <div class="elementor-shape elementor-shape-bottom position-absolute" data-negative="false">
-                    <svg preserveAspectRatio="none" viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg"> 
-                        <path class="elementor-shape-fill" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z" opacity="0.33"> 
-                        </path> 
-                        <path class="elementor-shape-fill" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z" opacity="0.66"> 
-                        </path> 
-                        <path class="elementor-shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"> 
-                        </path> 
-                    </svg>
-                </div>
-            </div>*/}
         </div>
     )
 }
