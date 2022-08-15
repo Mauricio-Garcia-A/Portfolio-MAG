@@ -1,16 +1,24 @@
 // Importacion Estilos Globales
 @import 'EstilosGlobales/EstilosGlobales.scss';
 
+$porcentajeDeveloper:0.30;
+$porcentajeDesign:1-$porcentajeDeveloper;
+$dev: $porcentajeDeveloper*360deg;
+$des: $porcentajeDesign*360deg;
+
 
 // ---- ESTILOS COMPONENTE SECCION HABILIDADES ----
 .contenedor-Habilidades {
-    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
-      background: rgb(255, 255, 255);
+    background-image: url('../../../Imagenes/fondo-habilidades.png'), linear-gradient(0deg, rgba(217, 221, 255, 0.263) 5%, rgba(2, 0, 36, 0.23) 88%);;
+    background-blend-mode:multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .contenedor-seccion-tecnologias-Habilidades {
     display: flex;
@@ -18,5 +26,56 @@
     padding: 30px;
 
 }
+
+.donut-hole {
+    stroke: #00000050;
+    stroke-width:0.1px;
+
+    fill: #ffffff4a;
+
+}
+
+
+.donut-segment {
+    transform-origin: center;
+}
+
+.donut-segment-1 {
+
+    stroke: rgb(182, 101, 101);
+}
+
+.donut-segment-2 {
+    stroke: #46469c;
+}
+
+
+.donut-text {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.donut-design {
+    fill: #d2d2d2;
+    font-size: 3pt;
+
+}
+
+.donut-dev {
+    fill: #d2d2d2;
+    font-size: 3pt;
+
+}
+
+.donut-data-dev {
+    font-size: 1.9pt;
+    fill: black;
+}
+.donut-data-design {
+    font-size: 1.7pt;
+    fill: black;
+}
+
+
 
 

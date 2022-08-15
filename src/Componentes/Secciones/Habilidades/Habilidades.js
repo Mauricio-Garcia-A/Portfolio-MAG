@@ -3,6 +3,7 @@ import IconoUx from 'Componentes/Iconos/IconoUx'
 import { useSimuladorAPI } from 'Hooks/useSimuladorAPI'
 import React from 'react'
 import DifereciacionHabilidades from './DifereciacionHabilidades/DifereciacionHabilidades'
+import Grafico from './Grafico'
 
 import './Habilidades.scss'
 
@@ -12,6 +13,7 @@ export default function Habilidades() {
     return (
         <div className='contenedor-Habilidades'>
             <h1>{SECCION_HABILIDADES.Titulo}</h1>
+            <p>{SECCION_HABILIDADES.descripcionSeccion}</p>
             <DifereciacionHabilidades 
                 imagen1={SECCION_HABILIDADES.ImagenHabilidad1} 
                 imagen2={SECCION_HABILIDADES.ImagenHabilidad2} 
@@ -20,7 +22,11 @@ export default function Habilidades() {
                 titulo2={SECCION_HABILIDADES.tituloHabilidad2} 
                 descripcion2={SECCION_HABILIDADES.descripcionHabilidad2}
             />
-
+            <div className='contenedor-seccion-tecnologias-Habilidades'>
+                <div>DEV</div>
+                    <Grafico porcentaje={30}/>
+                <div>DESIG</div>  
+            </div>
             <div className='contenedor-seccion-tecnologias-Habilidades'>
                 <IconoDev titulo='html5' width='80px' />
                 <IconoDev titulo='css3' width='80px'/>

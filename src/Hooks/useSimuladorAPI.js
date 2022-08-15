@@ -27,6 +27,7 @@ export function useSimuladorAPI() {
     }
     const SECCION_HABILIDADES = {
         Titulo: 'SECCION 2: HABILIDADES',
+        descripcionSeccion:'Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint. Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint', 
         ImagenHabilidad1:ImagenHabilidad1,
         ImagenHabilidad2:ImagenHabilidad2,
         tituloHabilidad1:'Developer',
