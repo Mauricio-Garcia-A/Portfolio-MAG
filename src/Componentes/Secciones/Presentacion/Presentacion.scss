@@ -33,8 +33,9 @@ $colorSignosTitulo:rgb(64, 70, 255);
         margin-top: 10px;
 
         h1 {
-             margin-right: 15px;
+            margin-right: 15px;
             font-size: 30pt;
+            color: #dadada;
         }
 
         svg:nth-child(1) {
@@ -54,6 +55,9 @@ $colorSignosTitulo:rgb(64, 70, 255);
    
     p {
         color: rgb(255, 255, 255);
+        b {
+            color: $color2;
+        }
     }
 }
 

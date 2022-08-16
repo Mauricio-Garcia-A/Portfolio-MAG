@@ -8,16 +8,16 @@ import './Home.scss'
 export default function Home(){
     return (
         <div>
-            <section className='seccionEstandar'> 
+            <section > 
                 <Presentacion />
             </section>
-            <section className='seccionEstandar'>
+            <section>
                 <Habilidades />
             </section>
-            <section className='seccionEstandar'> 
+            <section> 
                 <Experiencias />
             </section>
-            <section className='seccionEstandar'> 
+            <section> 
                 <Portafolio />
             </section> 
         </div>

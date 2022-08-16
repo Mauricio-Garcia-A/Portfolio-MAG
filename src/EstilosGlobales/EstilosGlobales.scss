@@ -1,8 +1,42 @@
 *{
-    margin: 0;
+   margin: 0;
     padding: 0;
 }
+$color1:#19233c;        // Color Titilo Primario
+$color2:#e8452a;        // Color Titulo Secundario
+$color3: #333333;       // Color Parrafo 
 
+
+h1 {
+    margin: 10px;
+    color: $color1;
+    font-size: 35pt;
+//  line-height: 1.2;
+    font-weight: 800;
+//  font-stretch: normal;
+//  font-style: normal;
+//  letter-spacing: normal;
+//  outline: 0;
+    font-family: "Montserrat",sans-serif;
+
+    span {
+        color: $color2;
+    }
+}
+
+h2 {
+    color: rgba(43, 43, 43, 0.808);
+    font-size: 25pt;
+    font-weight: 600;
+}
+p {
+    line-height: 1.7;
+    font-size: 1rem;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    color: $color3;
+    text-rendering: optimizeLegibility;
+}
 
 .seccionEstandar {
+    padding: 40px 5% 80px 5%;
 }

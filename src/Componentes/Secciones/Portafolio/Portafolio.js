@@ -8,8 +8,8 @@ export default function Portafolio() {
     const { SECCION_PORTAFOLIO }= useSimuladorAPI()
 
     return (
-        <div className='contenedor-Portafolio'>
-            <h1>{SECCION_PORTAFOLIO.Titulo} </h1>
+        <div className='contenedor-Portafolio seccionEstandar'>
+            <h1>Portafolio <span>de Proyectos</span> </h1>
             <div className='contenedor-proyectos-Portafolio' >
                 {SECCION_PORTAFOLIO.proyectos.map((proyecto,i)=>{
                     let posicionItem='derecha'

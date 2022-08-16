@@ -5,10 +5,10 @@ import Hobbies from 'Componentes/Secciones/Hobbies/Hobbies'
 export default function AcercaDeMi(){
     return (
         <div>
-            <section className='seccionEstandar'> 
+            <section> 
                 <Descripcion />
             </section>
-            <section className='seccionEstandar'> 
+            <section> 
                 <Hobbies />
             </section>
         </div>

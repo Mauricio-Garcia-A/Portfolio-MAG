@@ -20,7 +20,7 @@ export default function ItemProyecto({titulo, descripcion, posicionItem, imagenC
                 </div>
 
                 <div className='contenedor-detalles-ItemProyecto'>
-                    <h1>{titulo}</h1>
+                    <h2>{titulo}</h2>
                     <p>{descripcion}</p>
                     <button>code</button>
                     <button>demo</button>

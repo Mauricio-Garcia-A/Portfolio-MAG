@@ -11,8 +11,8 @@ import './Habilidades.scss'
 export default function Habilidades() {
     const {SECCION_HABILIDADES}=useSimuladorAPI()
     return (
-        <div className='contenedor-Habilidades'>
-            <h1>{SECCION_HABILIDADES.Titulo}</h1>
+        <div className='contenedor-Habilidades seccionEstandar'>
+            <h1>Habilidades <span>Actuales</span></h1>
             <p>{SECCION_HABILIDADES.descripcionSeccion}</p>
             <DifereciacionHabilidades 
                 imagen1={SECCION_HABILIDADES.ImagenHabilidad1} 

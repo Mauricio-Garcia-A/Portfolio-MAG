@@ -12,7 +12,7 @@ export default function Contacto() {
 
     return (
         <div className='contenedor-Contacto'>
-            <h1> SECCION 5: FORMAS DE CONTACTO </h1>
+            <h1>FORMAS <span>DE CONTACTO</span> </h1>
             <section> 
                 <Logo />
                 <h2>Reces Sociales</h2>

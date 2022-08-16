@@ -6,8 +6,8 @@ import LineaDeTiempo from './LineaDeTiempo/LineaDeTiempo'
 export default function Experiencias() {
     const {SECCION_EXPERIENCIAS}= useSimuladorAPI()
     return (
-        <div className='contenedor-Experiencias'>
-            <h1>{SECCION_EXPERIENCIAS.Titulo} </h1>
+        <div className='contenedor-Experiencias seccionEstandar'>
+            <h1>Formación <span>Profesional</span></h1>
             <p>{SECCION_EXPERIENCIAS.DescripcionExperiencias}</p>
             <div> 
                 <LineaDeTiempo experiencias={SECCION_EXPERIENCIAS.experiencias}/>

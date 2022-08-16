@@ -5,7 +5,7 @@ import './PieDePagina.scss'
 export default function PieDePagina() {
     return (
         <div className='contenedor-PieDePagina'>
-            <section className='seccionEstandar'>
+            <section >
                 <Contacto />
             </section>
             

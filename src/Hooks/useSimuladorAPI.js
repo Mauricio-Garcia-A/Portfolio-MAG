@@ -23,7 +23,7 @@ export function useSimuladorAPI() {
         Nacinalidad: 'ARGENTINO',
         IconoBandera:'argentina',
         Titulo: 'SOY MAURO',
-        Descripcion: '< HOLA MUNDO /> Mi nombre es Mauricio Garcia y me conocen como "MAURO". Estudie la carrera de ingenieria en sistemas de informacion, y actualmente soy Developers FromtEnd'
+        Descripcion: 'Mi nombre es Mauricio Garcia y me conocen como "MAURO". Estudie la carrera de ingenieria en sistemas de informacion, y actualmente soy Developers FromtEnd'
     }
     const SECCION_HABILIDADES = {
         Titulo: 'SECCION 2: HABILIDADES',
