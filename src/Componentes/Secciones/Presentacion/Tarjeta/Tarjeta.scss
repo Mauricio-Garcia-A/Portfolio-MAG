@@ -1,7 +1,6 @@
 // Importacion Estilos Globales
 @import 'EstilosGlobales/EstilosGlobales.scss';
 
-
 $bordeExterior:#8d8d8d80;
 $bordeInterior: rgba(173, 173, 173, 0.495);
 $colorFondo:rgba(67, 91, 162, 0.411);
@@ -14,7 +13,7 @@ $colorFondo:rgba(67, 91, 162, 0.411);
     aspect-ratio: 15/8;
     transition: 1s ease all ;
 
-    background-color: $colorFondo;
+//  background: $colorFondo;
   
     border-radius: 10px;
     
@@ -38,7 +37,7 @@ $colorFondo:rgba(67, 91, 162, 0.411);
     .foto-perfil-Tarjeta {
 
  //       background-image: url('../../../../Imagenes/bg1.jpg');
-        background-color: rgba(162, 162, 162, 0.434);
+        background: linear-gradient(0deg, rgba(37, 0, 0, 0.647) 10%, rgba(95, 95, 95, 0.181) 80%);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -46,7 +45,9 @@ $colorFondo:rgba(67, 91, 162, 0.411);
         width: 160px;
         height: 160px;
         position: relative;
-        border: 5px solid $bordeInterior;
+        border: 3px solid rgba(14, 13, 13, 0.455);
+        
+
         img {
             width:110px;
             transition: 0.5s ease all ;
@@ -91,18 +92,29 @@ $colorFondo:rgba(67, 91, 162, 0.411);
     }
     section.seccion2 {
         display: flex;
-        flex-direction: column;justify-content: center;
+        flex-direction: column;
+        justify-content: center;
         width: 60%;
 
         h2 {
-            font-size: 25px;
-            margin: 0;
-            padding: 0;
+            opacity: 0.9;
+            font-size: 27px;
+            margin: 0px;
+            padding: 0px;
+            line-height: 1;    
+            color: rgba(0, 0, 0, 0.738);
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #740000, #050060);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         p {
             font-size: 15px;
-            margin: 0;
-            padding: 0;
+            margin: 0px;
+            padding: 0px;
+            line-height: 1;    
+
         }
 
     }

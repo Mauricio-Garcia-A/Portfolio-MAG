@@ -24,7 +24,7 @@ export default function IconoUx(props) {
                 return <svg {...props} x="0px" y="0px" viewBox="0 0 2500 2283.8" >
                            <style>
                                 {
-                                ".st0{fill:#979797}.st1{fill:#61a706}.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#979797}"
+                                ".st0{fill:#979797}.st1{fill:#61a706}.st3{fillRule:evenodd;clipRule:evenodd;fill:#979797}"
                                 }
                             </style>             
                             <path

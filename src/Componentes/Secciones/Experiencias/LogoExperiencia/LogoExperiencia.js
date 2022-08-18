@@ -461,7 +461,7 @@ export default function LogoExperiencia(props) {
                 {...props}
               >
                 <defs>
-                  <style>{".fil1{fill:#373435;fill-rule:nonzero}"}</style>
+                  <style>{".fil1{fill:#373435;fillRule:nonzero}"}</style>
                 </defs>
                 <g id="Capa_x0020_1">
                   <path

@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import IconosTarjeta from './IconosTarjeta';
 import './Tarjeta.scss'
 
-export default function Tarjeta({nombreYapellido, imagenPerfil, estudio, nacionalidad, iconoBandera}) {
+export default function Tarjeta({nombreYapellido, imagenPerfil, estudio, nacionalidad, iconoBandera, colorTarjeta}) {
 
     useEffect(()=>{
         const wrapper = document.getElementById('wrapperId')   
@@ -27,7 +27,7 @@ export default function Tarjeta({nombreYapellido, imagenPerfil, estudio, naciona
     return (
         <div className='container'>
             <div className='wrapper' id='wrapperId'>
-                <div className='contenedor-Tarjeta' id='tiketId'>
+                <div className='contenedor-Tarjeta' id='tiketId' style={{background: colorTarjeta}}>
                     <div className='contenedor2-Tarjeta'>
                         <div className='bloquedor'/>
                         <div className='nacionalidad-seccion-Tarjeta'>
@@ -49,7 +49,7 @@ export default function Tarjeta({nombreYapellido, imagenPerfil, estudio, naciona
                         </section>
                         <section className='seccion2'>
                             <p>NOMBRE Y APELLIDO:</p>
-                            <h2>{nombreYapellido}</h2>
+                            <h2><b>{nombreYapellido}</b></h2>
                             <p>ESTUDIO UNIVERSITARIO:</p>
                             <h2>{estudio}</h2>
                             

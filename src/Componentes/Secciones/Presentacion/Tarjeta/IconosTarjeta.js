@@ -98,7 +98,7 @@ export default function IconosTarjeta(props) {
                 {...props}
               >
                 <defs>
-                  <style>{".fil1{fill-rule:nonzero}"}</style>
+                  <style>{".fil1{fillRule:nonzero}"}</style>
                 </defs>
                 <g id="Capa_x0020_1">
                   <path

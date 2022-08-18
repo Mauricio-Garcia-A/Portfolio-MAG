@@ -18,7 +18,7 @@ export default function Contacto() {
                 <h2>Reces Sociales</h2>
                 { SECCION_CONTACTO.redesSociales.map((redSocial,i)=>{
                     return ( 
-                        <a href={redSocial.link}>
+                        <a href={redSocial.link}  key={`redSocial${i}`}>
                             <IconoGeneral titulo={redSocial.icono}  width='30px'/>
                         </a >
                     )
@@ -29,7 +29,7 @@ export default function Contacto() {
             <section>
                 { SECCION_CONTACTO.formasDeContacto.map((FDC,i)=>{
                     return (
-                        <div>
+                        <div  key={`FDC${i}`}>
                             <h2> {FDC.titulo}</h2>
                             <IconoGeneral titulo={FDC.icono}  width='30px'/>
                             <span>{FDC.descripcion}</span>                            

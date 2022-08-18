@@ -23,7 +23,31 @@ export function useSimuladorAPI() {
         Nacinalidad: 'ARGENTINO',
         IconoBandera:'argentina',
         Titulo: 'SOY MAURO',
-        Descripcion: 'Mi nombre es Mauricio Garcia y me conocen como "MAURO". Estudie la carrera de ingenieria en sistemas de informacion, y actualmente soy Developers FromtEnd'
+        Descripcion: 'Mi nombre es Mauricio Garcia, pero me pueden decir  "MAURO". Estudie la carrera de Ingeniería en Sistemas de Información y actualmente me dedico a encontrar soluciones software a diferentes problemáticas de una forma  innovadoras.',
+        AñosDeExperiencia: '3',
+        CaracteristicasPersonales: [
+            {   titulo:'Creativa',
+                colorTexto:'blue',
+                colorFondo:'rgba(67, 91, 162, 0.4)'
+            },
+            {   titulo:'Proactiva',
+                colorTexto:'red',
+                colorFondo:'rgba(162, 67, 67, 0.4)'
+            },
+            {   titulo:'Autodidacta',
+                colorTexto:'green',
+                colorFondo:'rgba(84, 162, 67, 0.4)'
+            },
+            {   titulo:'Diciplinada',
+                colorTexto:'yellow',
+                colorFondo:'rgba(186, 186, 53, 0.411)'
+            },
+            {   titulo:'Responsable',
+                colorTexto:'pink',
+                colorFondo:'rgba(57, 57, 57, 0.4)'
+            },
+
+        ]
     }
     const SECCION_HABILIDADES = {
         Titulo: 'SECCION 2: HABILIDADES',
