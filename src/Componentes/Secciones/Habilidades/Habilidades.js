@@ -13,38 +13,77 @@ export default function Habilidades() {
     return (
         <div className='contenedor-Habilidades seccionEstandar'>
             <h1>Habilidades <span>Actuales</span></h1>
-            <p>{SECCION_HABILIDADES.descripcionSeccion}</p>
+            {SECCION_HABILIDADES.descripcionSeccion.map((parrafo, i)=>{
+                return (<div key={`parrafo-habilidades-${i}`} className='parrafoHabilidades'>
+                            <p>{parrafo}</p>
+                            <br />
+                        </div>)
+            })}
+
             <DifereciacionHabilidades 
                 imagen1={SECCION_HABILIDADES.ImagenHabilidad1} 
                 imagen2={SECCION_HABILIDADES.ImagenHabilidad2} 
                 titulo1={SECCION_HABILIDADES.tituloHabilidad1} 
-                descripcion1={SECCION_HABILIDADES.descripcionHabilidad1} 
+                descripcion1={SECCION_HABILIDADES.descripcionHabilidad1}
+                iconos1={SECCION_HABILIDADES.iconosHabilidad1}
                 titulo2={SECCION_HABILIDADES.tituloHabilidad2} 
                 descripcion2={SECCION_HABILIDADES.descripcionHabilidad2}
+                iconos2={SECCION_HABILIDADES.iconosHabilidad2}
             />
             <div className='contenedor-seccion-tecnologias-Habilidades'>
-                <div>DEV</div>
+                <section>
+                    <h2>Desarrollador</h2>
+                    <ul>
+                        {SECCION_HABILIDADES.ActividadesRealizadas1.map((actividad,i)=>{
+                        return (
+                            <li key={`itemActividad1${i}`} className="item-lista-actividad">{actividad}</li>
+                            )
+                        })}     
+                    </ul>
+                                 
+                </section>
+                <section>
                     <Grafico porcentaje={30}/>
-                <div>DESIG</div>  
+                </section>
+                <section>
+                    <h2>Diseñador</h2>
+                    <ul>
+                        {SECCION_HABILIDADES.ActividadesRealizadas2.map((actividad,i)=>{
+                            return (
+                                <li key={`itemActividad2${i}`} className="item-lista-actividad">{actividad}</li>
+                            )
+                        })}                         
+                    </ul>
+                </section> 
             </div>
-            <div className='contenedor-seccion-tecnologias-Habilidades'>
-                <IconoDev titulo='html5' width='80px' />
-                <IconoDev titulo='css3' width='80px'/>
-                <IconoDev titulo='reactjs' width='80px'/>
-                <IconoDev titulo='sass' width='80px'/>
-                <IconoDev titulo='angular' width='80px'/>
-                <IconoDev titulo='angularjs' width='80px'/>
-                <IconoDev titulo='vuejs' width='80px'/>
-                <IconoDev titulo='github' width='80px'/>
-                <IconoDev titulo='js' width='80px'/>
-                <IconoDev titulo='javascript' width='80px'/>
-                <IconoDev titulo='nodejs' width='80px'/> 
-                <IconoDev titulo='bootstrap' width='80px'/> 
-                <IconoUx titulo='coreldraw' width='80px' /> 
-                <IconoUx titulo='photoshop' width='80px' />
+            <div className='contenedor-seccion2-tecnologias-Habilidades'>
+                <h2>SKILLs</h2>
+
+                {SECCION_HABILIDADES.SkillsDev.map((skill, i)=>{
+                    return (
+                        <div>
+                            <div key={`itemSkillDev${i}`}>
+                                <h3>{skill.titulo}</h3>
+                                {skill.items.map((item, e)=>{
+                                    return (<IconoDev titulo={item} width='80px' key={`iconoDev${i}-${e}`}/>)
+                                })}
+                            </div>
+                        </div>
+                    )
+                })}
+
+                {SECCION_HABILIDADES.SkillsDesing.map((skill, i)=>{
+                    return (
+                        <div key={`itemSkillDesing${i}`}>
+                            <h3>{skill.titulo}</h3>
+                            {skill.items.map((item, e)=>{
+                                return (<IconoUx titulo={item} width='80px'  key={`iconoDesing${i}-${e}`}/>)
+                            })}
+                        </div>
+                    )
+                })}
+                
             </div>
-              
-            SKILLs: Habilidad 01 - Habilidad 02 - Habilidad 03 - Habilidad 04 - Habilidad 05 - Habilidad 06 - Habilidad 07 
         </div>
     )
 }

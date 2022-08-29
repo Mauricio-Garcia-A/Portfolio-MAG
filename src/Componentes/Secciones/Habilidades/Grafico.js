@@ -19,7 +19,7 @@ function Grafico({porcentaje}) {
                             <tspan x="27px" y='18px' textAnchor="middle" className="donut-design">{porcentaje}%</tspan>   
                         </text>
                         <text y="67%" >
-                            <tspan x="19px" textAnchor="middle" className="donut-data-dev">CODER</tspan>
+                            <tspan x="19px" textAnchor="middle" className="donut-data-dev">DEVELOPER</tspan>
                             <tspan x="20px" y='31px' textAnchor="middle" className="donut-dev">{porcentaje2}%</tspan>   
                         </text>
                     </g>

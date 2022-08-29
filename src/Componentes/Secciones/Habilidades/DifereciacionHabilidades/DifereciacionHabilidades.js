@@ -1,8 +1,12 @@
+import IconoDev from 'Componentes/Iconos/IconoDev';
+import IconoUx from 'Componentes/Iconos/IconoUx';
 import React, { useEffect, useState } from 'react';
 import './DifereciacionHabilidades.scss'
+import FondoDesign from './fondosSVG/FondoDesign';
+import FondoDev from './fondosSVG/FondoDev';
 
 
-export default function DifereciacionHabilidades({imagen1, imagen2, titulo1, descripcion1, titulo2, descripcion2}) {
+export default function DifereciacionHabilidades({imagen1, imagen2, titulo1, descripcion1, titulo2, descripcion2, iconos1, iconos2}) {
     const [cambioTamano, setCambioT]=useState(false)
 
     window.addEventListener("load", function() {
@@ -44,11 +48,12 @@ export default function DifereciacionHabilidades({imagen1, imagen2, titulo1, des
                         <p>{descripcion2}</p>
                     </div>
                     <div className='tecnologias-DifereciacionHabilidades'>
-                        <p>Photoshop</p>
-                        <p>Corel Draw</p>
-                        <p>Prototipado</p>
+                        {iconos2.map((icono, i)=>{
+                           return <IconoUx key={`iconos-desig-${i}`} titulo={icono} width='80px'/>
+                        })}
                     </div>
                 </div> 
+                <FondoDesign className='fondoDH-Design'/>
                 <img src={imagen2} alt='img' className='imagen-DifereciacionHabilidades' />
             </section>
             <section id='seccion-uno' className='seccion-DifereciacionHabilidades seccion-uno-DifereciacionHabilidades' >
@@ -58,13 +63,12 @@ export default function DifereciacionHabilidades({imagen1, imagen2, titulo1, des
                         <p>{descripcion1}</p>
                     </div>
                     <div className='tecnologias-DifereciacionHabilidades'>
-                        <p>ReactJS</p>
-                        <p>JS</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
+                        {iconos1.map((icono, i)=>{
+                           return <IconoDev key={`iconos-dev-${i}`} titulo={icono} width='80px'/>
+                        })}
                     </div>
                 </div>
-                
+                <FondoDev className='fondoDH-Dev' />
                 <img src={imagen1} alt='img' className='imagen-DifereciacionHabilidades'/>
             </section>
             <div className='bolqueador-DifereciacionHabilidades'>

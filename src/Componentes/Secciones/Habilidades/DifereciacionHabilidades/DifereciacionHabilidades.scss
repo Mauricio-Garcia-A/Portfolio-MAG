@@ -36,7 +36,7 @@ $heightContenedor: 400px;
 }
 .seccion-uno-DifereciacionHabilidades {
     z-index: 4;
-    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgb(215, 214, 255) 99%);
     transition: 1s ease all ;
     .contenedor-informacion-DifereciacionHabilidades{
         flex-direction: row;
@@ -44,10 +44,13 @@ $heightContenedor: 400px;
 
 }
 .seccion-dos-DifereciacionHabilidades {
-    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgb(255, 218, 193) 99%);
     z-index: 4;
     .contenedor-informacion-DifereciacionHabilidades{
         flex-direction: row-reverse;
+    }
+    .tecnologias-DifereciacionHabilidades {
+        text-align: end;
     }
 }
 
@@ -126,3 +129,18 @@ $heightContenedor: 400px;
     height: $heightContenedor;
 }
 
+.fondoDH-Dev{
+    width: 20%;
+    position: absolute;
+    opacity: 0.4;
+    top: -90px;
+    left: 0px;
+}
+.fondoDH-Design {
+    width: 20%;
+    opacity: 0.4;
+    position: absolute;
+    top: -90px;
+    right: 0px;
+
+}

@@ -19,14 +19,66 @@ $des: $porcentajeDesign*360deg;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    .parrafoHabilidades {
+        width: 100%
+    }
+
 }
 .contenedor-seccion-tecnologias-Habilidades {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
     padding: 30px;
+    width: 100%;
 
+    h2 {
+        margin-bottom: 25px;
+    }
+    section:nth-child(1) {
+        text-align: center;
+        width: 30%;
+    }
+    section:nth-child(2) {
+
+    }
+    section:nth-child(3) {
+        text-align: center;
+        width: 30%;
+    }
+}
+.item-lista-actividad {
+    text-align: start;
+}
+.contenedor-seccion2-tecnologias-Habilidades {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    width: 100%;
+    div {
+        background: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(2px);
+
+        border: 1px solid rgba(42, 42, 42, 0.237);
+        border-radius: 10px;
+        padding: 3px;
+        margin: 5px;
+        div {
+            background: rgba(255, 255, 255, 0.337);
+            border: 1px solid rgba(42, 42, 42, 0.218);
+            border-radius: 5px;
+            padding: 40px;
+            
+            text-align: center;  
+        }
+    }
+    h3 {
+        color: $color2;
+        margin: 0px 0px 20px 0px;
+    }
 }
 
+// Estilos del Grafico
 .donut-hole {
     stroke: #00000050;
     stroke-width:0.1px;
@@ -41,12 +93,13 @@ $des: $porcentajeDesign*360deg;
 }
 
 .donut-segment-1 {
-
-    stroke: rgb(182, 101, 101);
+    opacity: 0.5;
+    stroke: $color2;
 }
 
 .donut-segment-2 {
-    stroke: #46469c;
+    opacity: 0.5;
+    stroke: $color4;
 }
 
 
@@ -56,25 +109,29 @@ $des: $porcentajeDesign*360deg;
 }
 
 .donut-design {
-    fill: #d2d2d2;
+    fill: #ffffff1a;
     font-size: 3pt;
-
+    
 }
 
 .donut-dev {
-    fill: #d2d2d2;
+    fill: #ffffff1a;
     font-size: 3pt;
+
+
 
 }
 
 .donut-data-dev {
-    font-size: 1.9pt;
-    fill: black;
+    font-size: 2pt;
+    fill: rgb(255, 255, 255);
+
 }
 .donut-data-design {
-    font-size: 1.7pt;
-    fill: black;
+    font-size: 1.5pt;
+    fill: rgb(255, 255, 255);
 }
+
 
 
 

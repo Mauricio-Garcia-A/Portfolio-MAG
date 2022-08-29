@@ -23,7 +23,7 @@ export function useSimuladorAPI() {
         Nacinalidad: 'ARGENTINO',
         IconoBandera:'argentina',
         Titulo: 'SOY MAURO',
-        Descripcion: 'Mi nombre es Mauricio Garcia, pero me pueden decir  "MAURO". Estudie la carrera de Ingeniería en Sistemas de Información y actualmente me dedico a encontrar soluciones software a diferentes problemáticas de una forma  innovadoras.',
+        Descripcion: 'Mi nombre es Mauricio Garcia, pero me pueden decir  "MAURO". Estudie la carrera de Ingeniería en Sistemas de Información, y actualmente me dedico a encontrar soluciones software a diferentes problemáticas de una forma  innovadoras, eficiente y eficaz',
         AñosDeExperiencia: '3',
         CaracteristicasPersonales: [
             {   titulo:'Creativa',
@@ -51,13 +51,69 @@ export function useSimuladorAPI() {
     }
     const SECCION_HABILIDADES = {
         Titulo: 'SECCION 2: HABILIDADES',
-        descripcionSeccion:'Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint. Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint', 
+        descripcionSeccion:[
+            'A lo largo del tiempo he aprendido diferentes tecnologías, y desarrollado diversas habilidades, en el área IT (Tecnología de la Información).',
+            'Debido a que estudie la carrera de “Ingeniería en Sistemas de Información”, muchos de estos conocimientos y habilidades fueron adquiridas y desarrolladas en el ámbito universitario. Las cuales pude llevar a la práctica trabajando un Centro de Investigación y en una consultora Internacional de Sistemas, y a su vez, en estos mismos lugares seguir aprender nuevas habilidades y tecnologías.',
+            'Actualmente soy Desarrollador FrontEnd en ReactJS y realizando diferentes actividades como Diseñador UX/UI. Hoy me encuentro  mesclado un poco de ambos mundo, “El Desarrollo” y “El Diseño Web”, para encontrar y desarrollar soluciones software a diferentes problemáticas, de una forma innovadoras, creativas, eficaz y eficiente, que logren cumplir y superar con los objetivo planteados, sacado así una ventajas competitivas en el mercado, utilizando como medio las tecnologías más utilizadas en la actualidad.',
+            "Relacionando el proceso de diseño y el proceso de desarrollo de una forma agil, mediantes las actuales metodologias agiles, como Scrum y Kanban."
+        ],  
         ImagenHabilidad1:ImagenHabilidad1,
         ImagenHabilidad2:ImagenHabilidad2,
         tituloHabilidad1:'Developer',
-        descripcionHabilidad1:'Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint', 
+        descripcionHabilidad1:'Desarrollador FrontEnd en ReactJS de forma Freelance. Incursionando el desarrollo BackEnd con NodeJs, entre otras tecnologías.', 
+        iconosHabilidad1: ['reactjs','html5','js','css3'],
         tituloHabilidad2:'UX/UI', 
-        descripcionHabilidad2:'Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint'
+        descripcionHabilidad2:'Diseñador de Interfaces y de Experiencias de Usuarios.',
+        iconosHabilidad2: ['photoshop','coreldraw'],
+        ActividadesRealizadas1:[
+            "Análisis del sistema (Relevamiento de los requerimientos)",
+            "Diseño del sistemas (Diagramas UML y Patrones de diseño)",
+            "Diseño de Arquitectura e infraestructura (Redes y Bases Datos)",
+            "Desarrollador (Programador FrontEnd y BackEnd)",
+            "QA y testing",
+            "Soporte para la implementación y mantenimiento del sistema"
+        ],
+        ActividadesRealizadas2:[
+            "Diseño UI (Diseños de Interacción y de Interfaz de Usuario)",
+            "Patrones de Diseño UI y Heurísticas de Nielsen",
+            "Diseño UX (Fundamentos de diseño de Experiencias de Usuario)",
+            "Leyes de UX",
+            "Estudios de Accesibilidad y Usabilidad",
+            "Creación de Prototipos"
+        ],
+        SkillsDev: [
+            {   titulo:"Tecnologias Web FrontEnd:",
+                items:['html5', 'css3', 'js']
+            },
+            {   titulo:"Frameworks y Librerías Web:",
+                items: ['reactjs', 'angular', 'vuejs', 'wordpress', 'drupal', 'dreamweaver']
+            },
+            {   titulo:"Librerías y Preprocesadores de Estilos:",
+                items: ['sass', 'less', 'postcss', 'bootstrap', 'materialui']
+            },
+            {   titulo:"Tecnologias Web BackEnd:",
+                items: ['nodejs', 'python', 'php']
+            },
+            {   titulo:"Tecnologias de Bases de Datos:",
+                items: ['mysql', 'postgresql', 'mongodb']
+            },
+            {   titulo:"Herramienta de control de versiones:",
+                items: ['github', 'svn']
+            },
+            {   titulo:"Metodologías Agiles:",
+                items: ['scrum', 'kanban']
+            },           
+
+        ],
+        SkillsDesing: [
+            {   titulo:"Tecnologias de Diseño:",
+                items:['photoshop','coreldraw','autocad']
+            },
+            {   titulo:"Herramientas de Prototipado:",
+                items: ['']
+            },
+        ]
+
     }
 
     const SECCION_EXPERIENCIAS = {

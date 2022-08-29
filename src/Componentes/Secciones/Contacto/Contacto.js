@@ -3,6 +3,8 @@ import React from 'react'
 import Logo from 'Componentes/Logotipo/Logo'
 import { useSimuladorAPI } from 'Hooks/useSimuladorAPI'
 import pdf from 'Documentos/CV-Garcia Mauricio.pdf'
+import IconoDescagaPDF from 'Imagenes/icono-descagaPDF.png'
+
 
 import './Contacto.scss'
 import IconoGeneral from 'Componentes/Iconos/IconoGeneral'
@@ -38,13 +40,20 @@ export default function Contacto() {
                 })}
             </section>
             <section>
+                <div className='contenedor-cv-Contacto'>
                     <a href={pdf} >
-                        <embed src={`${pdf}#toolbar=0&navpanes=0&scrollbar=0`} title="CV" width='240' height='383'  style={{ overflow:'hidden !important'}}>
+                        <div className='bloqueador-CV'>
+                            <span>VER CV</span>
+                        </div>
+                        <embed src={`${pdf}#toolbar=0&navpanes=0&scrollbar=0`} title="CV"  style={{ overflow:'hidden !important'}}>
                         </embed>
                     </a>
-                    <a href={pdf} target="_blank" rel="noopener noreferrer" download="CV-Garcia Mauricio.pdf"> 
-                        Descarga mi CV
-                    </a>
+                    <a href={pdf} target="_blank" rel="noopener noreferrer" download="CV-Garcia Mauricio.pdf" className='botonDescargaCV-Contacto'> 
+                        <img src={IconoDescagaPDF } alt='pdf' />
+                        Descarga CV
+                    </a>                  
+                </div>
+
             </section>
 
         </div>
