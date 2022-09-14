@@ -1,0 +1,61 @@
+// MODAL
+.fondoModal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    background: rgba(0, 0, 0, 0.534);
+    backdrop-filter: blur(4px);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+
+.contenedorVentanaModal{
+    background: rgba(0, 0, 0, 0.452);
+    
+    
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1300px;
+    min-width: 300px;
+    position: relative;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    div {
+        margin: 0px 5px 5px 5px;
+        border-radius: 0px 0px 8px 8px;
+        min-height: 70vh;
+        background: rgb(255, 255, 255);
+    }
+}
+.tituloModal{
+    width: 100%;
+    border-bottom: #9d9d9d52 1px solid;
+    margin-top: 14px;
+    padding-bottom: 14px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.botonCerrarModal{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+    &:hover{
+        background: #f2c9c9;
+    }
+    &:active{
+        background: #f29d9d;
+    }
+}

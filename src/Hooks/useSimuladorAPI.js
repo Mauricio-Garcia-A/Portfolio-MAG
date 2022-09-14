@@ -122,38 +122,48 @@ export function useSimuladorAPI() {
         experiencias:[
             { 
                 titulo:'Freelancer',
-                subtitulo:'proyectos',
+                subtitulo:'Diferentes Proyectoss',
                 duracionAños:'2020-Actualidad',
-                descripcion:'Lorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget laciniaLorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus phasellus sapien in curabitur pulvinar conubia metus ut eligendi sint',
-                logo:'freelancer'
+                descripcion:'Hoy me encuentro desarrollando diferentes proyectos de manera FreeLancer, abierto a aprender nuevas tecnologías para satisfacer las necesidades particulares de cada proyecto de la forma más efectiva posible, y con el objetivo claro de seguir creciendo como profesional.',
+                logo:'freelancer',
+                logoTitulo:'freelancer-titulo',
+                informacionExtra:[]
             },
             { 
                 titulo:'Consultora Internacional',
                 subtitulo:'Global Logic',
                 duracionAños:'2018-2020',
-                descripcion:'Lorem Lorem ipsum Lorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus in sint dolor vel odio autem ut eligendi sint',
+                descripcion:'Trabaje  2 años en la consultora de sistemas internacional Global Logic como Developer FrontEnd Junior, en proyectos de sector de banca. Rol que lleve a cabo con éxito cumpliendo de con las tareas solicitadas de forma satisfactoria en tiempo y forma. (Desarrollo, mantenimiento y testing de Home Banking)',
                 logo:'globalLogic',
+                logoTitulo:'globalLogic-titulo',
+                informacionExtra:[]
             },
             { 
                 titulo:'Trabajo en Investigacion',
                 subtitulo:'GIDAS',
                 duracionAños:'2017-2018',
-                descripcion:'Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint',
-                logo:'gidas'
+                descripcion:'Trabaje como becario en el Centro de investigación GIDAS (Grupo de Investigación & Desarrollo Aplicado a Sistemas informáticos y computacionales), en un rol administrativo del centro de investigación, y también como participante y desarrollador en diversos proyectos de investigación.',
+                logo:'gidas',
+                logoTitulo:'gidas-titulo',
+                informacionExtra:[]
             },
             { 
                 titulo:'Estudio Universitario',
                 subtitulo:'UTN FRLP',
                 duracionAños:'2008-Actualidad',
-                descripcion:'Lorem ipsum dolor sit amet. Ut obcaecati velit in sint dolor vel odio autem ut eligendi sint',
-                logo:'utn'
+                descripcion:'Estudie en la UTN FRLP (Universidad Tecnológica Nacional - Facultad Regional La Plata), la carrera de Ingeniería en Sistemas de Información. Actualmente estoy en la etapa final de la carrera, habiendo terminado de cursar la totalidad de las materias y terminado de dar los finales.',
+                logo:'utn',
+                logoTitulo:'utnfrlp',
+                informacionExtra:[]
             },
             { 
                 titulo:'Estudios Secundarios',
                 subtitulo:'Escuela Tecnica N1',
                 duracionAños:'2003-2007',
-                descripcion:'Lorem ipsum dolor sit amet. Ut Lorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus',
-                logo:'escuela'
+                descripcion:'Mis estudios secundarios lo realice en la Escuela de educación Técnica Nº1 - "Ceferino Namuncura" de la ciudad de Daireaux. De la cual egrese con los títulos de “Técnico en Informática Personal y Profesional” y “Bachiller, modalidad Producción de Bienes y Servicios”',
+                logo:'escuela',
+                logoTitulo:'escuela-titulo',
+                informacionExtra:[]
             }
         ]
     }
