@@ -61,8 +61,8 @@ export default function Habilidades() {
 
                 {SECCION_HABILIDADES.SkillsDev.map((skill, i)=>{
                     return (
-                        <div>
-                            <div key={`itemSkillDev${i}`}>
+                        <div key={`itemSkillDev${i}`}>
+                            <div >
                                 <h3>{skill.titulo}</h3>
                                 {skill.items.map((item, e)=>{
                                     return (<IconoDev titulo={item} width='80px' key={`iconoDev${i}-${e}`}/>)
@@ -75,10 +75,12 @@ export default function Habilidades() {
                 {SECCION_HABILIDADES.SkillsDesing.map((skill, i)=>{
                     return (
                         <div key={`itemSkillDesing${i}`}>
-                            <h3>{skill.titulo}</h3>
-                            {skill.items.map((item, e)=>{
-                                return (<IconoUx titulo={item} width='80px'  key={`iconoDesing${i}-${e}`}/>)
-                            })}
+                            <div>
+                                <h3>{skill.titulo}</h3>
+                                {skill.items.map((item, e)=>{
+                                    return (<IconoUx titulo={item} width='80px'  key={`iconoDesing${i}-${e}`}/>)
+                                })}
+                            </div>
                         </div>
                     )
                 })}
