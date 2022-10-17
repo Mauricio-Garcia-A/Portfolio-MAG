@@ -8,12 +8,16 @@ import ImagenHabilidad2 from 'Imagenes/fotoHabilidades2.png'
 //Seccion PORTAFOLIO
 import imagenMovilEGO from 'Imagenes/ego-movil.png'
 import imagenMovilMeli from 'Imagenes/meli-movil.png'
+import imagenMovilIAF from 'Imagenes/iaf-movil.png'
 import imagenBrowseEGO from 'Imagenes/ego-browser.png'
 import imagenBrowseMeli from 'Imagenes/meli-browser.png'
+import imagenBrowseIAF from 'Imagenes/iaf-browser.png'
 import logoEGO from 'Imagenes/logo-ego.png'
 import logoMeli from 'Imagenes/logo-meli.png'
-
-
+import logoIAF from 'Imagenes/logo-iaf.png'
+import logoTituloEGO from 'Imagenes/logo-titulo-ego.png'
+import logoTituloMeli from 'Imagenes/logo-titulo-meli.png'
+import logoTituloIAF from 'Imagenes/logo-titulo-iaf.png'
 
 export function useSimuladorAPI() {
     const SECCION_PRESENTACION = {
@@ -174,20 +178,47 @@ export function useSimuladorAPI() {
             {
                 titulo:'Challenge de Mercado Libre',
                 tituloHttp:'meli',
-                descripcion:'Lorem ipsum dolor sit amet. Ut Lorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus',
+                descripcion:'Prueba tecnica ralizada para puesto de frontend para Mercado libre',
                 imagenMovil: imagenMovilMeli,
                 imagenBrowser:imagenBrowseMeli,
                 logo: logoMeli,
+                logoTitulo: logoTituloMeli,
                 colorFondo: 'rgba(216, 152, 13, 0.511)',
+                fecha:'20/02/2022',
+                tecnologias:['reactjs','sass','html5','js'],
+                linkGit:'https://github.com/Mauricio-Garcia-A/Proyecto-MeLi',
+                linkPage:'https://mauricio-garcia-a.github.io/Proyecto-MeLi/',
+
             },
             {
                 titulo:'Challenge de Agencia EGO',
                 tituloHttp:'ego',
-                descripcion:'Lorem ipsum dolor sit amet. Ut Lorem ipsum dolor sit amet consectetur adipiscing elit, eget velit malesuada primis vulputate diam. Ultrices eget lacinia phasellus sapien in curabitur pulvinar conubia metus',
+                descripcion:'Prueba tecnica ralizada para puesto de frontend para Agencia EGO',
                 imagenMovil: imagenMovilEGO,
                 imagenBrowser:imagenBrowseEGO,
                 logo: logoEGO,
-                colorFondo: 'rgba(108, 20, 20, 0.511)'
+                logoTitulo: logoTituloEGO,
+                colorFondo: 'rgba(108, 20, 20, 0.511)',
+                fecha:'20/02/2022',
+                tecnologias:['reactjs','html5', 'css3', 'js'],
+                linkGit:'https://github.com/Mauricio-Garcia-A/Proyecto-EGO',
+                linkPage:'https://mauricio-garcia-a.github.io/Proyecto-EGO/',
+
+            },
+            {
+                titulo:'Challenge de Instituto Alexander Fleming',
+                tituloHttp:'iaf',
+                descripcion:'Prueba tecnica ralizada para puesto de frontend para Instituto Alexander Fleming',
+                imagenMovil: imagenMovilIAF,
+                imagenBrowser:imagenBrowseIAF,
+                logo: logoIAF,
+                logoTitulo: logoTituloIAF,
+                colorFondo: '#da00746f',
+                fecha:'20/02/2022',
+                tecnologias:['reactjs','html5', 'css3', 'js'],
+                linkGit:'https://github.com/Mauricio-Garcia-A/Proyecto-IAF',
+                linkPage:'https://mauricio-garcia-a.github.io/Proyecto-IAF/',
+
             }
         ]
     }

@@ -26,7 +26,12 @@ export default function Portafolio() {
                             imagenNavegador={proyecto.imagenBrowser}
                             tituloHttp={proyecto.tituloHttp}
                             logo={proyecto.logo}
+                            logoTitulo={proyecto.logoTitulo}
                             colorFondo={proyecto.colorFondo}
+                            fecha={proyecto.fecha}
+                            tecnologias={proyecto.tecnologias}
+                            linkGit={proyecto.linkGit}
+                            linkPage={proyecto.linkPage}
                          />
                     )
                 })}
