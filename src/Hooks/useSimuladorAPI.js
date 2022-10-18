@@ -3,7 +3,7 @@ import ImagenPerfil from '../Imagenes/imagenPerfil.png'
 
 //Seccion HABILIDADES
 import ImagenHabilidad1 from 'Imagenes/fotoHabilidades1.png'
-import ImagenHabilidad2 from 'Imagenes/fotoHabilidades2.png'
+import ImagenHabilidad2 from 'Imagenes/fotoHabilidades3.png'
 
 //Seccion PORTAFOLIO
 import imagenMovilEGO from 'Imagenes/ego-movil.png'
