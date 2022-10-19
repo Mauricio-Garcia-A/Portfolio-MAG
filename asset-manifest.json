@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-MAG/static/css/main.90fd0efa.css",
-    "main.js": "/Portfolio-MAG/static/js/main.b3fac48d.js",
+    "main.js": "/Portfolio-MAG/static/js/main.cfc497d8.js",
     "static/js/787.23d167c7.chunk.js": "/Portfolio-MAG/static/js/787.23d167c7.chunk.js",
     "static/media/ego-browser.png": "/Portfolio-MAG/static/media/ego-browser.14658858f46a833fa5f0.png",
     "static/media/fotoHabilidades3.png": "/Portfolio-MAG/static/media/fotoHabilidades3.840c8f372b7bcc0e2273.png",
@@ -20,11 +20,11 @@
     "static/media/fondo-experiencias.png": "/Portfolio-MAG/static/media/fondo-experiencias.206183090a19bce5c5cd.png",
     "index.html": "/Portfolio-MAG/index.html",
     "main.90fd0efa.css.map": "/Portfolio-MAG/static/css/main.90fd0efa.css.map",
-    "main.b3fac48d.js.map": "/Portfolio-MAG/static/js/main.b3fac48d.js.map",
+    "main.cfc497d8.js.map": "/Portfolio-MAG/static/js/main.cfc497d8.js.map",
     "787.23d167c7.chunk.js.map": "/Portfolio-MAG/static/js/787.23d167c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90fd0efa.css",
-    "static/js/main.b3fac48d.js"
+    "static/js/main.cfc497d8.js"
   ]
 }
